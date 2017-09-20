@@ -42,7 +42,7 @@ Each product must be wrapped in their own div with a class of product. In there 
 </div>
 ```
 To successfully add this to your site you must give it the classnames in the example above. If you do not then it isn't going to work.
-When adding prices you need to make sure you dont include the $ in the class. This is why you should include a <span> around the number itself
+When adding prices you need to make sure you dont include the $ in the class. This is why you should include a span around the number itself
 
 #### Prepare your cart
 Create a container of where your cart is going to be. Give this cart an ID of Cart
@@ -84,13 +84,13 @@ If you want to include a clear cart button. Then add an ID of clear to that elem
     <button id="clear">Clear Cart</button>
 ```
 #### Total Price
-If you want to include the total price of every item in your cart then add the class priceCount to a <span> element.
+If you want to include the total price of every item in your cart then add the class priceCount to a span element.
 This will only include the number and not the dollar sign so you need to include that outside of the span
 ```sh
     <p>Total Price of cart is $<span class="priceCount"></span></p>
 ```
 #### Cart Count
-To include the count of how many items are in your cart, add the class cartCount to a <span> element.
+To include the count of how many items are in your cart, add the class cartCount to a span element.
 ```sh
     <p>Number of items in cart = <span class="cartCount"></span></p>
 ```
