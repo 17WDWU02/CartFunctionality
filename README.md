@@ -78,6 +78,8 @@ Firstly create a template version of what you want your cart to look like.
 You dont need to include everything shown above as it will work with some of the elements.
 As long as you have followed these instructions and named all the classes and ID's correctly, the cart should take a copy of your template and insert the appropriate data.
 
+In your template you **have to include** the single price of the product aswell as the quantity within the template. These can be hidden using display none but for this to successfully work you need to include it
+
 #### Clear Cart
 If you want to include a clear cart button. Then add an ID of clear to that element
 ```sh
